@@ -16,7 +16,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="10,21,0,0" TextWrapping="Wrap" Text="Radio:" VerticalAlignment="Top" FontSize="20" Height="27" Width="55"/>
-        <TextBox HorizontalAlignment="Left" Height="31" Margin="10,58,0,0" TextWrapping="Wrap" Text="1.0" VerticalAlignment="Top" Width="102" FontSize="22"/>
+        <TextBox x:Name="txtRadio" HorizontalAlignment="Left" Height="31" Margin="10,58,0,0" TextWrapping="Wrap" Text="1.0" VerticalAlignment="Top" Width="102" FontSize="22"/>
 
     </Grid>
 </UserControl>

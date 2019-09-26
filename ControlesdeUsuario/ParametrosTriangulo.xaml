@@ -7,9 +7,9 @@
              mc:Ignorable="d" Height="240" Width="396">
     <Grid Margin="0,0,0,10">
         <TextBlock HorizontalAlignment="Left" Margin="10,18,0,0" TextWrapping="Wrap" Text="Base:" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="10,48,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtbasetriangulo" HorizontalAlignment="Left" Height="24" Margin="10,48,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,94,0,0" TextWrapping="Wrap" Text="Altura:" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="10,120,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtalturatriangulo" HorizontalAlignment="Left" Height="24" Margin="10,120,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </UserControl>
